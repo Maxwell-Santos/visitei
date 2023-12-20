@@ -1,0 +1,182 @@
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.1rem;
+  gap: 2rem;
+}
+
+input, textarea, select {
+  width: 100%;
+  outline: none;
+  border: 2px solid #9D9D9D;
+  padding: .5rem;
+  border-radius: .5rem;
+  font-family: 'Inter', sans-serif;
+  margin-top: .5rem;
+
+  transition: all ease .3s;
+}
+
+input:hover, textarea:hover, select:hover {
+  border: 2px solid var(--hint); 
+}
+
+input:focus, textarea:focus, select:focus {
+  border: 2px solid var(--hint); 
+}
+
+label {
+  font-weight: 600;
+}
+
+textarea {
+  display: block;
+  resize: none;
+  height: 100px;
+}
+
+.data-categoria {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.data-categoria div {
+  flex: 1;
+}
+
+input[type='number'] {
+  text-align: center;
+}
+
+.sel-imgs label {
+  display: block;
+  text-align: center;
+}
+
+.sel-imgs div {
+  display: flex;
+  margin-top: .5rem;
+  width: 100%;
+  gap: 1rem;
+}
+
+.sel-imgs div div{
+  aspect-ratio: 4/4;
+  border: 1px solid #9D9D9D;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.sessao-notas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.sessao-notas div label {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.estrelas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: .5rem;
+  width: 100%;
+}
+
+.estrelas label {
+  cursor: pointer;
+  transition: color .3s;
+  font-size: 2rem
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+.estrelas label:hover,
+.estrelas input[type="radio"]:checked ~ label{
+  color: rgb(252, 225, 72);    
+}
+
+#estrelasMedia label{
+  cursor: default;
+  pointer-events: none;
+}
+
+.acoes {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn-limpar {
+  font-family: 'Inter', sans-serif;
+  border: 2px solid var(--hint);
+  padding: .9rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  background: none;
+
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-width: 128.18px;
+  max-width: fit-content;
+  height: 48px;
+  
+}
+
+.btn-limpar:hover {
+  color: rgb(204, 26, 26);
+  border-color: rgb(142, 11, 11);
+}
+
+.btn-limpar span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  transition: all ease .3s;
+  width: 100%;
+}
+
+.btn-limpar:hover span {
+  top: -100%;
+}
+
+
+.btn-limpar i {
+  position: absolute;
+  left: 50%;
+  top: 125%;
+  translate: -50% -50%;
+  font-size: 1.5rem;
+  transition: all ease .3s;
+}
+
+.btn-limpar:hover i {
+  top: 50%;
+}
+
+.btn-enviar {
+  font-family: 'Inter', sans-serif;
+  padding: .9rem;
+  background-color: var(--hint);
+  color: #ffff;
+  border: none;
+  border-radius: .5rem;
+  cursor: pointer;
+  flex: 1;
+}

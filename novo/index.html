@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../estilos/global.css">
+  <link rel="stylesheet" href="estilo.css">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <title>Novo Passeio</title>
+</head>
+
+<body>
+  <header>
+    <i class="ph ph-arrow-left" style="font-size: 2rem;" onclick="history.back()"></i>
+    <h2>Novo Passeio</h2>
+  </header>
+
+  <form action="">
+    <div>
+      <label>Título</label>
+      <input type="text">
+    </div>
+
+    <div>
+      <label>Descrição</label>
+      <textarea name="" id=""></textarea>
+    </div>
+
+    <div class="data-categoria">
+      <div>
+        <label>Data</label>
+        <input type="date" id="">
+      </div>
+      <div>
+        <label>Categoria</label>
+        <select>
+          <option value="restaurante">Restaurante</option>
+          <option value="parques">Parques</option>
+          <option value="sorvete">Sorvete</option>
+          <option value="outros">Outros</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <label>Preço Total</label>
+      <input type="number" placeholder="R$ 120,00">
+    </div>
+
+    <div class="sel-imgs">
+      <label>Imagens</label>
+      <div>
+        <div class="img1"></div>
+        <div class="img2"></div>
+        <div class="img3"></div>
+      </div>
+    </div>
+
+    <div class="sessao-notas">
+
+      <div>
+        <label>Nota para o lugar</label>
+        <div id="estrelas1" class="estrelas">
+          <input type="radio" name="nota" id="starLugar5" value="5">
+          <label for="starLugar5">
+            <i class="ph-fill ph-star"></i>
+          </label>
+
+          <input type="radio" name="nota" id="starLugar4" value="4">
+          <label for="starLugar4">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota" id="starLugar3" value="3">
+          <label for="starLugar3">
+            <i class="ph-fill ph-star"></i>
+          </label>
+
+          <input type="radio" name="nota" id="starLugar2" value="2">
+          <label for="starLugar2">
+            <i class="ph-fill ph-star"></i>
+          </label>
+
+          <input type="radio" name="nota" id="starLugar1" value="1">
+          <label for="starLugar1">
+            <i class="ph-fill ph-star"></i>
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <label>Nota para o preço</label>
+        <div id="estrelas2" class="estrelas">
+          <input type="radio" name="nota2" id="starPreco5" value="5">
+          <label for="starPreco5">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota2" id="starPreco4" value="4">
+          <label for="starPreco4">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota2" id="starPreco3" value="3">
+          <label for="starPreco3">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota2" id="starPreco2" value="2">
+          <label for="starPreco2">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota2" id="starPreco1" value="1">
+          <label for="starPreco1">
+            <i class="ph-fill ph-star"></i>
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <label>Nota para a logística</label>
+        <div id="estrelas3" class="estrelas">
+          <input type="radio" name="nota3" id="starLogi5" value="5">
+          <label for="starLogi5">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota3" id="starLogi4" value="4">
+          <label for="starLogi4">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota3" id="starLogi3" value="3">
+          <label for="starLogi3">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota3" id="starLogi2" value="2">
+          <label for="starLogi2">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="nota3" id="starLogi1" value="1">
+          <label for="starLogi1">
+            <i class="ph-fill ph-star"></i>
+          </label>
+        </div>
+      </div>
+
+      <div>
+        <label>Media</label>
+        <div id="estrelasMedia" class="estrelas">
+          <input type="radio" name="media" id="starMedia5" value="5">
+          <label for="starMedia5">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="media" id="starMedia4" value="4">
+          <label for="starMedia4">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="media" id="starMedia3" value="3">
+          <label for="starMedia3">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="media" id="starMedia2" value="2">
+          <label for="starMedia2">
+            <i class="ph-fill ph-star"></i>
+          </label>
+          <input type="radio" name="media" id="starMedia1" value="1">
+          <label for="starMedia1">
+            <i class="ph-fill ph-star"></i>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <label>O que ela achou?</label>
+      <textarea></textarea>
+    </div>
+    <div>
+      <label>O que ele achou?</label>
+      <textarea></textarea>
+    </div>
+
+    <div class="acoes">
+      <button type="reset" class="btn-limpar">
+        <span>Limpar campos</span>
+        <i class="ph-fill ph-trash"></i>
+      </button>
+      <button type="submit" class="btn-enviar">Adicionar novo</button>
+    </div>
+  </form>
+
+  <script>
+    const estrelas = document.querySelectorAll(".estrelas input")
+    const notas = new Map()
+
+    estrelas.forEach(estrela => {
+      estrela.addEventListener('change', () => {
+        const estrelaId = estrela.id
+        notas.set(estrela.name, estrela.value)
+
+        mostrarMedia(calcularMedia())
+
+        console.log(notas)
+      })
+    });
+
+    function calcularMedia() {
+      let media = 0
+
+      notas.forEach(item => {
+        media = media + Number(item)
+      })
+      media = media / notas.size
+
+      return Math.round(media)
+    }
+
+    const estrelasMedia = document.querySelectorAll("#estrelasMedia input")
+
+    function mostrarMedia(media) {
+      estrelasMedia.forEach(estrela => {
+        if (estrela.value == media) {
+          estrela.checked = true
+        } else estrela.checked = false
+      })
+    }
+
+  </script>
+</body>
+
+</html>

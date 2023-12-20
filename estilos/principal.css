@@ -1,0 +1,129 @@
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+header .add-novo {
+  font-family: 'Inter', sans-serif;
+  padding: .9rem;
+  background-color: var(--hint);
+  color: #FFF;
+  border: none;
+  border-radius: .5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+header .pesquisar {
+  flex: 1;
+  display: flex;
+  border: 1px solid #aaaaaa;
+  border-radius: .5rem;
+  padding: 1rem;;
+}
+
+header .pesquisar input {
+  flex: 1;
+  outline: none;
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: .6rem;
+  overflow-x: auto;
+}
+
+nav a {
+  flex: 1;
+  font-family: "Inter", sans-serif;
+  font-size: .9rem;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: var(--hint);
+  padding: .3rem;
+  border-radius: .4rem; 
+}
+
+main {
+  margin-top: 4rem;
+}
+
+main .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card .card-data {
+  font-size: .9rem;
+  padding: .3rem 0;
+}
+.card .card-content {
+  border-radius: .5rem;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card .card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+}
+
+.card .card-content .card-infos{
+  padding: 1.2rem;
+  color: #FFFFFF;
+  background-color: #242424b8;
+  border-radius: .5rem .5rem 0 0;
+}
+.card .card-content .card-infos h3 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.card .card-content .card-infos p {
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.card .card-rodape {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.card .card-comentarios {
+  opacity: 0;
+  height: 0px;
+  overflow: hidden;
+  transition: all ease .3s;
+}
+.card .card-comentarios.mostrar {
+  opacity: 1;
+  height: 250px;
+  transition: all ease .3s;
+}
+
+.card .btn-comentarios {
+  /* font-weight: 500; */
+  cursor: pointer;
+  background-color: #2424241e;
+  padding: .2rem .8rem;
+  border-radius: .4rem;
+}
