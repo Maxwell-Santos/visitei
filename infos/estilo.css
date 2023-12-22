@@ -31,8 +31,9 @@
   margin: 1rem 0 2rem;
 }
 .carroussel img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  max-width: 100px;
+  aspect-ratio: 4/3;
 }
 
 .notas div{
