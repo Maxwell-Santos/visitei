@@ -1,136 +1,161 @@
 {
-  "places": [
-    {
-      "name": "sorveteria",
-      "cards": [
+    "places": [
         {
-          "id": 1,
-          "title": "",
-          "description": "",
-          "price": "",
-          "date": "",
-          "imgs": {
-            "igm1": "caminho",
-            "igm2": "caminho",
-            "igm3": "caminho"
-          },
-          "comments": [
-            {
-              "name": "",
-              "comment": ""
-            },
-            {
-              "name": "",
-              "comment": ""
-            }
-          ],
-          "stars": {
-            "environment": 4,
-            "logistic": 4,
-            "price": 4,
-            "average": 4
-          }
-        }
-      ]
-    },
-    {
-      "name": "parques",
-      "cards": [
+            "name": "sorveteria",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "description": "",
+                    "price": "",
+                    "date": "",
+                    "imgs": {
+                        "igm1": "caminho",
+                        "igm2": "caminho",
+                        "igm3": "caminho"
+                    },
+                    "comments": [
+                        {
+                            "name": "",
+                            "comment": ""
+                        },
+                        {
+                            "name": "",
+                            "comment": ""
+                        }
+                    ],
+                    "stars": {
+                        "environment": 4,
+                        "logistic": 4,
+                        "price": 4,
+                        "average": 4
+                    }
+                }
+            ]
+        },
         {
-          "id": 1,
-          "title": "",
-          "description": "",
-          "price": "",
-          "date": "",
-          "imgs": {
-            "igm1": "caminho",
-            "igm2": "caminho",
-            "igm3": "caminho"
-          },
-          "comments": [
-            {
-              "name": "",
-              "comment": ""
-            },
-            {
-              "name": "",
-              "comment": ""
-            }
-          ],
-          "stars": {
-            "environment": 4,
-            "logistic": 4,
-            "price": 4,
-            "average": 4
-          }
-        }
-      ]
-    },
-    {
-      "name": "outros",
-      "cards": [
+            "name": "parques",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "description": "",
+                    "price": "",
+                    "date": "",
+                    "imgs": {
+                        "igm1": "caminho",
+                        "igm2": "caminho",
+                        "igm3": "caminho"
+                    },
+                    "comments": [
+                        {
+                            "name": "",
+                            "comment": ""
+                        },
+                        {
+                            "name": "",
+                            "comment": ""
+                        }
+                    ],
+                    "stars": {
+                        "environment": 4,
+                        "logistic": 4,
+                        "price": 4,
+                        "average": 4
+                    }
+                }
+            ]
+        },
         {
-          "id": 1,
-          "title": "",
-          "description": "",
-          "price": "",
-          "date": "",
-          "imgs": {
-            "igm1": "caminho",
-            "igm2": "caminho",
-            "igm3": "caminho"
-          },
-          "comments": [
-            {
-              "name": "",
-              "comment": ""
-            },
-            {
-              "name": "",
-              "comment": ""
-            }
-          ],
-          "stars": {
-            "environment": 4,
-            "logistic": 4,
-            "price": 4,
-            "average": 4
-          }
-        }
-      ]
-    },
-    {
-      "name": "restaurantes",
-      "cards": [
+            "name": "outros",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "description": "",
+                    "price": "",
+                    "date": "",
+                    "imgs": {
+                        "igm1": "caminho",
+                        "igm2": "caminho",
+                        "igm3": "caminho"
+                    },
+                    "comments": [
+                        {
+                            "name": "",
+                            "comment": ""
+                        },
+                        {
+                            "name": "",
+                            "comment": ""
+                        }
+                    ],
+                    "stars": {
+                        "environment": 4,
+                        "logistic": 4,
+                        "price": 4,
+                        "average": 4
+                    }
+                }
+            ]
+        },
         {
-          "id": 1,
-          "title": "",
-          "description": "",
-          "price": "",
-          "date": "",
-          "imgs": {
-            "igm1": "caminho",
-            "igm2": "caminho",
-            "igm3": "caminho"
-          },
-          "comments": [
-            {
-              "name": "",
-              "comment": ""
-            },
-            {
-              "name": "",
-              "comment": ""
-            }
-          ],
-          "stars": {
-            "environment": 4,
-            "logistic": 4,
-            "price": 4,
-            "average": 4
-          }
+            "name": "restaurantes",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "",
+                    "description": "",
+                    "price": "",
+                    "date": "",
+                    "imgs": {
+                        "igm1": "caminho",
+                        "igm2": "caminho",
+                        "igm3": "caminho"
+                    },
+                    "comments": [
+                        {
+                            "name": "",
+                            "comment": ""
+                        },
+                        {
+                            "name": "",
+                            "comment": ""
+                        }
+                    ],
+                    "stars": {
+                        "environment": 4,
+                        "logistic": 4,
+                        "price": 4,
+                        "average": 4
+                    }
+                }
+            ]
+        },
+        {
+            "name": "restaurante",
+            "cards": [
+                {
+                    "id": 5,
+                    "title": "teste",
+                    "description": "teste",
+                    "price": "R$ 50,00",
+                    "date": "2023-12-22",
+                    "imgs": {
+                        "igm1": "caminho_imagem1.jpg",
+                        "igm2": "caminho_imagem2.jpg",
+                        "igm3": "caminho_imagem3.jpg"
+                    },
+                    "himComment": "bom",
+                    "herComment": "bom",
+                    "stars": {
+                        "environment": null,
+                        "logistic": "5",
+                        "price": "3",
+                        "average": "4"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

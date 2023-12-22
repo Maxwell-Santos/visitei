@@ -18,25 +18,25 @@
     <h2>Novo Passeio</h2>
   </header>
 
-  <form action="">
+  <form action="../registrar.php">
     <div>
       <label>Título</label>
-      <input type="text" required>
+      <input type="text" name="titulo" required>
     </div>
 
     <div>
       <label>Descrição</label>
-      <textarea name="" id="" required></textarea>
+      <textarea name="descricao" id="" required></textarea>
     </div>
 
     <div class="data-categoria">
       <div>
         <label>Data</label>
-        <input type="date" id="" required>
+        <input type="date" name="data" required>
       </div>
       <div>
         <label>Categoria</label>
-        <select>
+        <select name="categoria">
           <option value="restaurante">Restaurante</option>
           <option value="parques">Parques</option>
           <option value="sorvete">Sorvete</option>
@@ -47,7 +47,7 @@
 
     <div>
       <label>Preço Total</label>
-      <input type="text" id="telefone" placeholder="R$ 120,00" required>
+      <input type="text" id="telefone" placeholder="R$ 120,00" name="preco" required>
     </div>
 
     <div class="sel-imgs">
@@ -171,11 +171,11 @@
 
     <div>
       <label>O que ela achou?</label>
-      <textarea required></textarea>
+      <textarea name="comentDela" required></textarea>
     </div>
     <div>
       <label>O que ele achou?</label>
-      <textarea required></textarea>
+      <textarea name="comentDele" required></textarea>
     </div>
 
     <div class="acoes">
