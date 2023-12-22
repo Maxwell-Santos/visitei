@@ -1,0 +1,136 @@
+{
+  "places": [
+    {
+      "name": "sorveteria",
+      "cards": [
+        {
+          "id": 1,
+          "title": "",
+          "description": "",
+          "price": "",
+          "date": "",
+          "imgs": {
+            "igm1": "caminho",
+            "igm2": "caminho",
+            "igm3": "caminho"
+          },
+          "comments": [
+            {
+              "name": "",
+              "comment": ""
+            },
+            {
+              "name": "",
+              "comment": ""
+            }
+          ],
+          "stars": {
+            "environment": 4,
+            "logistic": 4,
+            "price": 4,
+            "average": 4
+          }
+        }
+      ]
+    },
+    {
+      "name": "parques",
+      "cards": [
+        {
+          "id": 1,
+          "title": "",
+          "description": "",
+          "price": "",
+          "date": "",
+          "imgs": {
+            "igm1": "caminho",
+            "igm2": "caminho",
+            "igm3": "caminho"
+          },
+          "comments": [
+            {
+              "name": "",
+              "comment": ""
+            },
+            {
+              "name": "",
+              "comment": ""
+            }
+          ],
+          "stars": {
+            "environment": 4,
+            "logistic": 4,
+            "price": 4,
+            "average": 4
+          }
+        }
+      ]
+    },
+    {
+      "name": "outros",
+      "cards": [
+        {
+          "id": 1,
+          "title": "",
+          "description": "",
+          "price": "",
+          "date": "",
+          "imgs": {
+            "igm1": "caminho",
+            "igm2": "caminho",
+            "igm3": "caminho"
+          },
+          "comments": [
+            {
+              "name": "",
+              "comment": ""
+            },
+            {
+              "name": "",
+              "comment": ""
+            }
+          ],
+          "stars": {
+            "environment": 4,
+            "logistic": 4,
+            "price": 4,
+            "average": 4
+          }
+        }
+      ]
+    },
+    {
+      "name": "restaurantes",
+      "cards": [
+        {
+          "id": 1,
+          "title": "",
+          "description": "",
+          "price": "",
+          "date": "",
+          "imgs": {
+            "igm1": "caminho",
+            "igm2": "caminho",
+            "igm3": "caminho"
+          },
+          "comments": [
+            {
+              "name": "",
+              "comment": ""
+            },
+            {
+              "name": "",
+              "comment": ""
+            }
+          ],
+          "stars": {
+            "environment": 4,
+            "logistic": 4,
+            "price": 4,
+            "average": 4
+          }
+        }
+      ]
+    }
+  ]
+}

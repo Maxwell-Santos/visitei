@@ -3,12 +3,19 @@
 :root{
   --primario: #FFFFFF;
   --hint: #242424;
+  --font: #242424;
 }
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
   
 body{
@@ -18,6 +25,7 @@ body{
   max-width: 960px;
   padding: 2rem;
   margin: 0 auto;
+  color: var(--font);
 }
 
 h1, h2{

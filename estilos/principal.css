@@ -48,7 +48,7 @@ nav a {
   text-decoration: none;
   color: #FFFFFF;
   background-color: var(--hint);
-  padding: .3rem;
+  padding: .5rem;
   border-radius: .4rem; 
 }
 
@@ -58,15 +58,23 @@ main {
 
 main .cards {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 432px;
 }
 
 .card .card-data {
   font-size: .9rem;
   padding: .3rem 0;
 }
+
 .card .card-content {
   border-radius: .5rem;
   overflow: hidden;
@@ -89,17 +97,23 @@ main .cards {
   padding: 1.2rem;
   color: #FFFFFF;
   background-color: #242424b8;
+  backdrop-filter: blur(4px);
   border-radius: .5rem .5rem 0 0;
 }
 .card .card-content .card-infos h3 {
   font-family: 'Philosopher', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 300;
   margin-bottom: 1rem;
 }
 .card .card-content .card-infos p {
   font-weight: 300;
   line-height: 140%;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card .card-rodape {
@@ -121,9 +135,19 @@ main .cards {
 }
 
 .card .btn-comentarios {
-  /* font-weight: 500; */
   cursor: pointer;
   background-color: #2424241e;
   padding: .2rem .8rem;
   border-radius: .4rem;
+}
+
+@media (max-width: 425px){
+  .card .card-content .card-infos h3 {
+    font-size: 1.4rem;
+  }
+  .card .card-content .card-infos p {
+    font-size: 1rem;
+    -webkit-line-clamp: 3;
+
+  }
 }

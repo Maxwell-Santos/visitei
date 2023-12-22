@@ -14,25 +14,25 @@
 
 <body>
   <header>
-    <i class="ph ph-arrow-left" style="font-size: 2rem;" onclick="history.back()"></i>
+    <i class="ph ph-arrow-left" style="font-size: 2rem;" onclick="window.location.href = '/index.html'"></i>
     <h2>Novo Passeio</h2>
   </header>
 
   <form action="">
     <div>
       <label>Título</label>
-      <input type="text">
+      <input type="text" required>
     </div>
 
     <div>
       <label>Descrição</label>
-      <textarea name="" id=""></textarea>
+      <textarea name="" id="" required></textarea>
     </div>
 
     <div class="data-categoria">
       <div>
         <label>Data</label>
-        <input type="date" id="">
+        <input type="date" id="" required>
       </div>
       <div>
         <label>Categoria</label>
@@ -47,7 +47,7 @@
 
     <div>
       <label>Preço Total</label>
-      <input type="number" placeholder="R$ 120,00">
+      <input type="text" id="telefone" placeholder="R$ 120,00" required>
     </div>
 
     <div class="sel-imgs">
@@ -171,11 +171,11 @@
 
     <div>
       <label>O que ela achou?</label>
-      <textarea></textarea>
+      <textarea required></textarea>
     </div>
     <div>
       <label>O que ele achou?</label>
-      <textarea></textarea>
+      <textarea required></textarea>
     </div>
 
     <div class="acoes">
@@ -223,6 +223,24 @@
       })
     }
 
+    document.querySelector("#telefone").addEventListener('input', formatar);
+
+    function formatar(event) {
+      let valor = event.target.value;
+
+      // Remove todos os caracteres não numéricos
+      valor = valor.replace(/\D/g, '');
+
+      // Adiciona a máscara de Reais enquanto digita
+      if (valor.length > 2) {
+        valor = `R$ ${valor.slice(0, -2)},${valor.slice(-2)}`;
+      } else if (valor.length === 2) {
+        valor = `R$ ${valor}`;
+      }
+
+      // Atualiza o valor do campo
+      event.target.value = valor;
+    }
   </script>
 </body>
 

@@ -1,0 +1,59 @@
+
+.cabecalho {
+  margin-bottom: 2rem;
+}
+
+.cabecalho h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.cabecalho p {
+  line-height: 140%;
+  text-align: justify;
+}
+.card-cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.card-cabecalho .data {
+  font-size: .8rem;
+}
+
+.imgs img {
+  border-radius: .5rem;
+}
+.carroussel{
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0 2rem;
+}
+.carroussel img {
+  width: 100px;
+  height: 100px;
+}
+
+.notas div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.comentarios {
+  margin-top: 2rem;
+}
+
+.comentarios h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.comentarios div div {
+  margin-bottom: 1rem;
+}
+
+.comentarios div div p {
+  margin-top: .3rem;
+}
