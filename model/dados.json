@@ -10,9 +10,9 @@
                     "price": "",
                     "date": "",
                     "imgs": {
-                        "igm1": "caminho",
-                        "igm2": "caminho",
-                        "igm3": "caminho"
+                        "img1": "caminho",
+                        "img2": "caminho",
+                        "img3": "caminho"
                     },
                     "comments": [
                         {
@@ -37,15 +37,15 @@
             "name": "parques",
             "cards": [
                 {
-                    "id": 1,
+                    "id": 2,
                     "title": "",
                     "description": "",
                     "price": "",
                     "date": "",
                     "imgs": {
-                        "igm1": "caminho",
-                        "igm2": "caminho",
-                        "igm3": "caminho"
+                        "img1": "caminho",
+                        "img2": "caminho",
+                        "img3": "caminho"
                     },
                     "comments": [
                         {
@@ -70,15 +70,15 @@
             "name": "outros",
             "cards": [
                 {
-                    "id": 1,
+                    "id": 3,
                     "title": "",
                     "description": "",
                     "price": "",
                     "date": "",
                     "imgs": {
-                        "igm1": "caminho",
-                        "igm2": "caminho",
-                        "igm3": "caminho"
+                        "img1": "caminho",
+                        "img2": "caminho",
+                        "img3": "caminho"
                     },
                     "comments": [
                         {
@@ -103,15 +103,15 @@
             "name": "restaurantes",
             "cards": [
                 {
-                    "id": 1,
+                    "id": 4,
                     "title": "",
                     "description": "",
                     "price": "",
                     "date": "",
                     "imgs": {
-                        "igm1": "caminho",
-                        "igm2": "caminho",
-                        "igm3": "caminho"
+                        "img1": "caminho",
+                        "img2": "caminho",
+                        "img3": "caminho"
                     },
                     "comments": [
                         {
@@ -142,9 +142,9 @@
                     "price": "R$ 50,00",
                     "date": "2023-12-22",
                     "imgs": {
-                        "igm1": "caminho_imagem1.jpg",
-                        "igm2": "caminho_imagem2.jpg",
-                        "igm3": "caminho_imagem3.jpg"
+                        "img1": "caminho_imagem1.jpg",
+                        "img2": "caminho_imagem2.jpg",
+                        "img3": "caminho_imagem3.jpg"
                     },
                     "himComment": "bom",
                     "herComment": "bom",
@@ -153,6 +153,31 @@
                         "logistic": "5",
                         "price": "3",
                         "average": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "sorvete",
+            "cards": [
+                {
+                    "id": 6,
+                    "title": "teste2",
+                    "description": "teste2",
+                    "price": "R$ 50,00",
+                    "date": "2001-10-10",
+                    "imgs": {
+                        "img1": "caminho_imagem1.jpg",
+                        "img2": "caminho_imagem2.jpg",
+                        "img3": "caminho_imagem3.jpg"
+                    },
+                    "himComment": "ela",
+                    "herComment": "ela",
+                    "stars": {
+                        "environment": "2",
+                        "logistic": "4",
+                        "price": "3",
+                        "average": "3"
                     }
                 }
             ]
