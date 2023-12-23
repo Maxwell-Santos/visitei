@@ -1,178 +1,45 @@
 {
-    "places": {
-        "0": {
-            "name": "sorveteria",
-            "cards": [
-                {
-                    "id": 1,
-                    "title": "",
-                    "description": "",
-                    "price": "",
-                    "date": "",
-                    "imgs": {
-                        "img1": "caminho",
-                        "img2": "caminho",
-                        "img3": "caminho"
-                    },
-                    "comments": [
-                        {
-                            "name": "",
-                            "comment": ""
-                        },
-                        {
-                            "name": "",
-                            "comment": ""
-                        }
-                    ],
-                    "stars": {
-                        "environment": 4,
-                        "logistic": 4,
-                        "price": 4,
-                        "average": 4
-                    }
-                }
-            ]
+    "places": [
+        {
+            "name": "sorveterias",
+            "cards": []
         },
-        "1": {
-            "name": "parques",
-            "cards": [
-                {
-                    "id": 2,
-                    "title": "",
-                    "description": "",
-                    "price": "",
-                    "date": "",
-                    "imgs": {
-                        "img1": "caminho",
-                        "img2": "caminho",
-                        "img3": "caminho"
-                    },
-                    "comments": [
-                        {
-                            "name": "",
-                            "comment": ""
-                        },
-                        {
-                            "name": "",
-                            "comment": ""
-                        }
-                    ],
-                    "stars": {
-                        "environment": 4,
-                        "logistic": 4,
-                        "price": 4,
-                        "average": 4
-                    }
-                }
-            ]
-        },
-        "2": {
-            "name": "outros",
-            "cards": [
-                {
-                    "id": 3,
-                    "title": "",
-                    "description": "",
-                    "price": "",
-                    "date": "",
-                    "imgs": {
-                        "img1": "caminho",
-                        "img2": "caminho",
-                        "img3": "caminho"
-                    },
-                    "comments": [
-                        {
-                            "name": "",
-                            "comment": ""
-                        },
-                        {
-                            "name": "",
-                            "comment": ""
-                        }
-                    ],
-                    "stars": {
-                        "environment": 4,
-                        "logistic": 4,
-                        "price": 4,
-                        "average": 4
-                    }
-                }
-            ]
-        },
-        "3": {
+        {
             "name": "restaurantes",
             "cards": [
                 {
-                    "id": 4,
-                    "title": "",
-                    "description": "",
-                    "price": "",
-                    "date": "",
-                    "imgs": {
-                        "img1": "caminho",
-                        "img2": "caminho",
-                        "img3": "caminho"
-                    },
-                    "comments": [
-                        {
-                            "name": "",
-                            "comment": ""
-                        },
-                        {
-                            "name": "",
-                            "comment": ""
-                        }
-                    ],
-                    "stars": {
-                        "environment": 4,
-                        "logistic": 4,
-                        "price": 4,
-                        "average": 4
-                    }
-                }
-            ]
-        },
-        "4": {
-            "name": "restaurante",
-            "cards": [
-                {
-                    "id": 5,
-                    "title": "teste",
-                    "description": "teste",
-                    "price": "R$ 50,00",
-                    "date": "2023-12-22",
-                    "imgs": {
-                        "img1": "caminho_imagem1.jpg",
-                        "img2": "caminho_imagem2.jpg",
-                        "img3": "caminho_imagem3.jpg"
-                    },
-                    "himComment": "bom",
-                    "herComment": "bom",
-                    "stars": {
-                        "environment": null,
-                        "logistic": "5",
-                        "price": "3",
-                        "average": "4"
-                    }
-                }
-            ]
-        },
-        "5": {
-            "name": "sorvete",
-            "cards": [
-                {
-                    "id": 6,
-                    "title": "teste2",
+                    "id": 2,
+                    "title": "teste5",
                     "description": "teste2",
-                    "price": "R$ 50,00",
-                    "date": "2001-10-10",
+                    "price": "2",
+                    "date": "2020-02-02",
                     "imgs": {
                         "img1": "caminho_imagem1.jpg",
                         "img2": "caminho_imagem2.jpg",
                         "img3": "caminho_imagem3.jpg"
                     },
-                    "himComment": "ela",
-                    "herComment": "ela",
+                    "himComment": "teste2",
+                    "herComment": "teste2",
+                    "stars": {
+                        "environment": "2",
+                        "logistic": "4",
+                        "price": "3",
+                        "average": "3"
+                    }
+                },
+                {
+                    "id": 3,
+                    "title": "teste6",
+                    "description": "teste2",
+                    "price": "2",
+                    "date": "2020-02-02",
+                    "imgs": {
+                        "img1": "caminho_imagem1.jpg",
+                        "img2": "caminho_imagem2.jpg",
+                        "img3": "caminho_imagem3.jpg"
+                    },
+                    "himComment": "teste2",
+                    "herComment": "teste2",
                     "stars": {
                         "environment": "2",
                         "logistic": "4",
@@ -182,73 +49,13 @@
                 }
             ]
         },
-        "restaurantes": [
-            {
-                "id": 7,
-                "title": "zz",
-                "description": "zzzzz",
-                "price": "R$ 10",
-                "date": "2010-10-10",
-                "imgs": {
-                    "img1": "caminho_imagem1.jpg",
-                    "img2": "caminho_imagem2.jpg",
-                    "img3": "caminho_imagem3.jpg"
-                },
-                "himComment": "fbjidocbjvcil",
-                "herComment": "sdjsiorjs",
-                "stars": {
-                    "environment": "2",
-                    "logistic": "4",
-                    "price": "2",
-                    "average": "3"
-                }
-            }
-        ]
-    },
-    "cards": [
         {
-            "id": 8,
-            "title": "zz",
-            "description": "zzzzz",
-            "price": "R$ 10",
-            "date": "2010-10-10",
-            "imgs": {
-                "img1": "caminho_imagem1.jpg",
-                "img2": "caminho_imagem2.jpg",
-                "img3": "caminho_imagem3.jpg"
-            },
-            "himComment": "fbjidocbjvcil",
-            "herComment": "sdjsiorjs",
-            "stars": {
-                "environment": "2",
-                "logistic": "4",
-                "price": "2",
-                "average": "3"
-            }
+            "name": "shoppings",
+            "cards": []
+        },
+        {
+            "name": "outros",
+            "cards": []
         }
-    ],
-    "name": {
-        "cards": [
-            {
-                "id": 8,
-                "title": "eeee",
-                "description": "eeeeeeeee",
-                "price": "R$ 10",
-                "date": "2010-10-10",
-                "imgs": {
-                    "img1": "caminho_imagem1.jpg",
-                    "img2": "caminho_imagem2.jpg",
-                    "img3": "caminho_imagem3.jpg"
-                },
-                "himComment": "fbjidocbjvcil",
-                "herComment": "sdjsiorjs",
-                "stars": {
-                    "environment": "2",
-                    "logistic": "4",
-                    "price": "2",
-                    "average": "3"
-                }
-            }
-        ]
-    }
+    ]
 }
