@@ -1,5 +1,5 @@
 <?php
-function adicionarLugar($nomeLocal, $titulo, $descricao, $commentDele, $commentDela, $preco, $data, $caminhoImagem1, $caminhoImagem2, $caminhoImagem3,
+function adicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data, $caminhoImagem1, $caminhoImagem2, $caminhoImagem3,
 $nota1, $nota2, $nota3, $media) {
 $filename = '../model/dados.json';
 
@@ -11,8 +11,8 @@ $filename = '../model/dados.json';
     }
 
     foreach ($listaLugares['places'] as &$lugar) {
-        if ($lugar['name'] === $nomeLocal) {
-            
+        if ($lugar['name'] === $categoria) {
+
             $id = count($lugar['cards'])+1;
 
             foreach ($lugar['cards'] as $cardLugar)
@@ -24,7 +24,7 @@ $filename = '../model/dados.json';
             }
             $novoCard = array(
                 'id' => $id,
-                'title' => $titulo,
+                'title' => $nomeLocal,
                 'description' => $descricao,
                 'price' => $preco,
                 'date' => $data,
@@ -52,19 +52,19 @@ $filename = '../model/dados.json';
 }
 
 adicionarLugar(
-    $_GET['categoria'],
-    $_GET['titulo'],
-    $_GET['descricao'],
-    $_GET['comentDele'],
-    $_GET['comentDela'],
-    $_GET['preco'],
-    $_GET['data'],
+    $_POST['titulo'],
+    $_POST['categoria'],
+    $_POST['descricao'],
+    $_POST['comentDele'],
+    $_POST['comentDela'],
+    $_POST['preco'],
+    $_POST['data'],
     'caminho_imagem1.jpg',
     'caminho_imagem2.jpg',
     'caminho_imagem3.jpg',
-    $_GET['nota'],
-    $_GET['nota2'],
-    $_GET['nota3'],
-    $_GET['media']
+    $_POST['nota'],
+    $_POST['nota2'],
+    $_POST['nota3'],
+    $_POST['media']
 );
 ?>
