@@ -23,7 +23,19 @@
     }
     else if ($requestMethod === 'POST')
     {
-        $Lugar->AdicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data, $caminhoImagem1, $caminhoImagem2, $caminhoImagem3,
-        $nota1, $nota2, $nota3, $media);
+        $Lugar->AdicionarLugar($_POST['titulo'],
+        $_POST['categoria'],
+        $_POST['descricao'],
+        $_POST['comentDele'],
+        $_POST['comentDela'],
+        $_POST['preco'],
+        $_POST['data'],
+        'caminho_imagem1.jpg',
+        'caminho_imagem2.jpg',
+        'caminho_imagem3.jpg',
+        $_POST['nota'],
+        $_POST['nota2'],
+        $_POST['nota3'],
+        $_POST['media']);
     }
 ?>

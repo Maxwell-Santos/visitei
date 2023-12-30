@@ -67,6 +67,26 @@
                         "price": "4",
                         "average": "3"
                     }
+                },
+                {
+                    "id": 5,
+                    "title": "uva",
+                    "description": "uva",
+                    "price": "R$ 10,10",
+                    "date": "2023-12-30",
+                    "imgs": {
+                        "img1": "caminho_imagem1.jpg",
+                        "img2": "caminho_imagem2.jpg",
+                        "img3": "caminho_imagem3.jpg"
+                    },
+                    "himComment": "uva",
+                    "herComment": "uva",
+                    "stars": {
+                        "environment": "2",
+                        "logistic": "4",
+                        "price": "3",
+                        "average": "3"
+                    }
                 }
             ]
         },
