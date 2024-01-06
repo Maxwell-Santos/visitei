@@ -42,6 +42,26 @@
                         "price": "2",
                         "average": "3"
                     }
+                },
+                {
+                    "id": 3,
+                    "title": "acho que agora vai",
+                    "description": "dia 12",
+                    "price": "R$ 50,00",
+                    "date": "2024-01-12",
+                    "imgs": {
+                        "img1": "caminho_imagem1.jpg",
+                        "img2": "caminho_imagem2.jpg",
+                        "img3": "caminho_imagem3.jpg"
+                    },
+                    "himComment": "ele gostou",
+                    "herComment": "ela gostou",
+                    "stars": {
+                        "environment": "3",
+                        "logistic": "3",
+                        "price": "4",
+                        "average": "3"
+                    }
                 }
             ]
         },

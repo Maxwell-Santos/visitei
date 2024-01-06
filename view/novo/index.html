@@ -53,9 +53,20 @@
     <div class="sel-imgs">
       <label>Imagens</label>
       <div>
-        <div class="img1"></div>
-        <div class="img2"></div>
-        <div class="img3"></div>
+        <input type="file" id="inpt-img1" accept="image/*" required>
+        <div class="img1" onclick="addImage('inpt-img1')">
+          <img src="" id="img1" alt="">
+        </div>
+
+        <input type="file" id="inpt-img2" accept="image/*" required>
+        <div class="img2" onclick="addImage('inpt-img2')">
+          <img src="" id="img2" alt="">
+        </div>
+
+        <input type="file" id="inpt-img3" accept="image/*" required>
+        <div class="img3" onclick="addImage('inpt-img3')">
+          <img src="" id="img3" alt="">
+        </div>
       </div>
     </div>
 
