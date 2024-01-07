@@ -1,122 +1,122 @@
 {
-    "places": [
+  "places": [
+    {
+      "name": "sorveterias",
+      "cards": [
         {
-            "name": "sorveterias",
-            "cards": [
-                {
-                    "id": 1,
-                    "title": "dfjotjdgo",
-                    "description": "dfjboifgjb",
-                    "price": "R$ 10",
-                    "date": "2010-10-10",
-                    "imgs": {
-                        "img1": "caminho_imagem1.jpg",
-                        "img2": "caminho_imagem2.jpg",
-                        "img3": "caminho_imagem3.jpg"
-                    },
-                    "himComment": "10",
-                    "herComment": "10",
-                    "stars": {
-                        "environment": "2",
-                        "logistic": "4",
-                        "price": "2",
-                        "average": "3"
-                    }
-                },
-                {
-                    "id": 2,
-                    "title": "dfjotjdgo",
-                    "description": "dfjboifgjb",
-                    "price": "R$ 10",
-                    "date": "2010-10-10",
-                    "imgs": {
-                        "img1": "caminho_imagem1.jpg",
-                        "img2": "caminho_imagem2.jpg",
-                        "img3": "caminho_imagem3.jpg"
-                    },
-                    "himComment": "10",
-                    "herComment": "10",
-                    "stars": {
-                        "environment": "2",
-                        "logistic": "4",
-                        "price": "2",
-                        "average": "3"
-                    }
-                },
-                {
-                    "id": 3,
-                    "title": "acho que agora vai",
-                    "description": "dia 12",
-                    "price": "R$ 50,00",
-                    "date": "2024-01-12",
-                    "imgs": {
-                        "img1": "caminho_imagem1.jpg",
-                        "img2": "caminho_imagem2.jpg",
-                        "img3": "caminho_imagem3.jpg"
-                    },
-                    "himComment": "ele gostou",
-                    "herComment": "ela gostou",
-                    "stars": {
-                        "environment": "3",
-                        "logistic": "3",
-                        "price": "4",
-                        "average": "3"
-                    }
-                }
-            ]
+          "id": 1,
+          "title": "dfjotjdgo",
+          "description": "dfjboifgjb",
+          "price": "R$ 10",
+          "date": "2010-10-10",
+          "imgs": {
+            "img1": "caminho_imagem1.jpg",
+            "img2": "caminho_imagem2.jpg",
+            "img3": "caminho_imagem3.jpg"
+          },
+          "himComment": "ele gostou bastante desse lugar pois tinha comida boa com o preço baixo",
+          "herComment": "ela gostou bastante desse lugar pois tinha comida boa com o preço baixo",
+          "stars": {
+            "environment": "2",
+            "logistic": "4",
+            "price": "2",
+            "average": "3"
+          }
         },
         {
-            "name": "restaurantes",
-            "cards": [
-                {
-                    "id": 4,
-                    "title": "dsjvoitjgo",
-                    "description": "fivjdoitgjdi",
-                    "price": "R$ 10",
-                    "date": "1010-10-10",
-                    "imgs": {
-                        "img1": "caminho_imagem1.jpg",
-                        "img2": "caminho_imagem2.jpg",
-                        "img3": "caminho_imagem3.jpg"
-                    },
-                    "himComment": "roigjeoigj",
-                    "herComment": "fsjioetjgo",
-                    "stars": {
-                        "environment": "4",
-                        "logistic": "2",
-                        "price": "4",
-                        "average": "3"
-                    }
-                },
-                {
-                    "id": 5,
-                    "title": "uva",
-                    "description": "uva",
-                    "price": "R$ 10,10",
-                    "date": "2023-12-30",
-                    "imgs": {
-                        "img1": "caminho_imagem1.jpg",
-                        "img2": "caminho_imagem2.jpg",
-                        "img3": "caminho_imagem3.jpg"
-                    },
-                    "himComment": "uva",
-                    "herComment": "uva",
-                    "stars": {
-                        "environment": "2",
-                        "logistic": "4",
-                        "price": "3",
-                        "average": "3"
-                    }
-                }
-            ]
+          "id": 2,
+          "title": "dfjotjdgo",
+          "description": "dfjboifgjb",
+          "price": "R$ 10",
+          "date": "2010-10-10",
+          "imgs": {
+            "img1": "caminho_imagem1.jpg",
+            "img2": "caminho_imagem2.jpg",
+            "img3": "caminho_imagem3.jpg"
+          },
+          "himComment": "ele gostou bastante desse lugar pois tinha comida boa com o preço baixo",
+          "herComment": "ela gostou bastante desse lugar pois tinha comida boa com o preço baixo",
+          "stars": {
+            "environment": "2",
+            "logistic": "4",
+            "price": "2",
+            "average": "3"
+          }
         },
         {
-            "name": "shoppings",
-            "cards": []
-        },
-        {
-            "name": "outros",
-            "cards": []
+          "id": 3,
+          "title": "acho que agora vai",
+          "description": "dia 12",
+          "price": "R$ 50,00",
+          "date": "2024-01-12",
+          "imgs": {
+            "img1": "caminho_imagem1.jpg",
+            "img2": "caminho_imagem2.jpg",
+            "img3": "caminho_imagem3.jpg"
+          },
+          "himComment": "ele gostou",
+          "herComment": "ela gostou",
+          "stars": {
+            "environment": "3",
+            "logistic": "3",
+            "price": "4",
+            "average": "3"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "name": "restaurantes",
+      "cards": [
+        {
+          "id": 4,
+          "title": "dsjvoitjgo",
+          "description": "fivjdoitgjdi",
+          "price": "R$ 10",
+          "date": "1010-10-10",
+          "imgs": {
+            "img1": "caminho_imagem1.jpg",
+            "img2": "caminho_imagem2.jpg",
+            "img3": "caminho_imagem3.jpg"
+          },
+          "himComment": "roigjeoigj",
+          "herComment": "fsjioetjgo",
+          "stars": {
+            "environment": "4",
+            "logistic": "2",
+            "price": "4",
+            "average": "3"
+          }
+        },
+        {
+          "id": 5,
+          "title": "uva",
+          "description": "uva",
+          "price": "R$ 10,10",
+          "date": "2023-12-30",
+          "imgs": {
+            "img1": "caminho_imagem1.jpg",
+            "img2": "caminho_imagem2.jpg",
+            "img3": "caminho_imagem3.jpg"
+          },
+          "himComment": "uva",
+          "herComment": "uva",
+          "stars": {
+            "environment": "2",
+            "logistic": "4",
+            "price": "3",
+            "average": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "shoppings",
+      "cards": []
+    },
+    {
+      "name": "outros",
+      "cards": []
+    }
+  ]
 }
