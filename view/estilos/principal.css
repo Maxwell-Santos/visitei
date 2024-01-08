@@ -56,6 +56,10 @@ main {
   margin-top: 4rem;
 }
 
+main .titulo::first-letter {
+  text-transform: uppercase;
+}
+
 main .cards {
   display: flex;
   /* flex-direction: column; */
