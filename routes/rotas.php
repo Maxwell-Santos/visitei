@@ -30,12 +30,13 @@
         $_POST['comentDela'],
         $_POST['preco'],
         $_POST['data'],
-        'caminho_imagem1.jpg',
-        'caminho_imagem2.jpg',
-        'caminho_imagem3.jpg',
+        $_FILES['foto1'],
+        $_FILES['foto2'],
+        $_FILES['foto3'],
         $_POST['nota'],
         $_POST['nota2'],
         $_POST['nota3'],
         $_POST['media']);
+        return header('Location: ../view/');
     }
 ?>

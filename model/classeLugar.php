@@ -1,23 +1,22 @@
 <?php
     class Lugar
     {
-        private $nomeLocal;
-        private $categoria;
-        private $descricao;
-        private $commentDele;
-        private $commentDela;
-        private $preco;
-        private $data;
-        private $caminhoImagem1;
-        private $caminhoImagem2;
-        private $caminhoImagem3;
-        private $nota1;
-        private $nota2;
-        private $nota3;
-        private $media;
+
+        public function AdicionarFoto($foto)
+        {
+            $nomeInicial = $foto['name'];
+            $novoNome = uniqid();
+            $extensao = strtolower(pathinfo($nomeInicial, PATHINFO_EXTENSION));
+            $pasta = '../images/';
+            $path = $pasta . $novoNome . "." . $extensao;
+
+            move_uploaded_file($foto['tmp_name'], $path);
+
+            return $path;
+        }
         
-        public function AdicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data, $caminhoImagem1, $caminhoImagem2, $caminhoImagem3,
-            $nota1, $nota2, $nota3, $media) 
+        public function AdicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data,
+            $foto1, $foto2, $foto3, $nota1, $nota2, $nota3, $media) 
         {
             $filename = '../model/dados.json';
 
@@ -27,6 +26,11 @@
             if ($listaLugares === null) {
                 $listaLugares = array('places' => array());
             }
+
+            $img1 = $this->AdicionarFoto($foto1);
+            $img2 = $this->AdicionarFoto($foto2);
+            $img3 = $this->AdicionarFoto($foto3);
+
 
             foreach ($listaLugares['places'] as &$lugar) {
                 if ($lugar['name'] === $categoria) {
@@ -47,9 +51,9 @@
                         'price' => $preco,
                         'date' => $data,
                         'imgs' => array(
-                            'img1' => $caminhoImagem1,
-                            'img2' => $caminhoImagem2,
-                            'img3' => $caminhoImagem3
+                            'img1' => $img1,
+                            'img2' => $img2,
+                            'img3' => $img3
                         ),
                         'himComment' => $commentDele,
                         'herComment' => $commentDela,

@@ -1,122 +1,104 @@
 {
-  "places": [
-    {
-      "name": "sorveterias",
-      "cards": [
+    "places": [
         {
-          "id": 1,
-          "title": "dfjotjdgo",
-          "description": "dfjboifgjb",
-          "price": "R$ 10",
-          "date": "2010-10-10",
-          "imgs": {
-            "img1": "caminho_imagem1.jpg",
-            "img2": "caminho_imagem2.jpg",
-            "img3": "caminho_imagem3.jpg"
-          },
-          "himComment": "ele gostou bastante desse lugar pois tinha comida boa com o preço baixo",
-          "herComment": "ela gostou bastante desse lugar pois tinha comida boa com o preço baixo",
-          "stars": {
-            "environment": "2",
-            "logistic": "4",
-            "price": "2",
-            "average": "3"
-          }
+            "name": "sorveterias",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "Gelateria Cioccolato",
+                    "description": "Sorveteria de quilo na Autonomistas. Pegamos um \u00f4nibus no centro de Osasco e voltamos a p\u00e9.",
+                    "price": "R$ 48,00",
+                    "date": "2023-10-10",
+                    "imgs": {
+                        "img1": "..\/images\/659c052611edd.jpg",
+                        "img2": "..\/images\/659c052612091.jpg",
+                        "img3": "..\/images\/659c052612217.jpg"
+                    },
+                    "himComment": "R\u00e1pido de chegar e muitos sabores de sorvete.",
+                    "herComment": "Sorvetes todos muito gostosos e lugar bonito.",
+                    "stars": {
+                        "environment": "5",
+                        "logistic": "5",
+                        "price": "5",
+                        "average": "5"
+                    }
+                }
+            ]
         },
         {
-          "id": 2,
-          "title": "dfjotjdgo",
-          "description": "dfjboifgjb",
-          "price": "R$ 10",
-          "date": "2010-10-10",
-          "imgs": {
-            "img1": "caminho_imagem1.jpg",
-            "img2": "caminho_imagem2.jpg",
-            "img3": "caminho_imagem3.jpg"
-          },
-          "himComment": "ele gostou bastante desse lugar pois tinha comida boa com o preço baixo",
-          "herComment": "ela gostou bastante desse lugar pois tinha comida boa com o preço baixo",
-          "stars": {
-            "environment": "2",
-            "logistic": "4",
-            "price": "2",
-            "average": "3"
-          }
+            "name": "restaurantes",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "Novo Oriente",
+                    "description": "Restaurante de pinheiros de culin\u00e1ria oriental. Demoramos cerca de 1h de viagem e tivemos que pegar um trem e um \u00f4nibus. \u00c9 perto da esta\u00e7\u00e3o. ",
+                    "price": "R$ 120,00",
+                    "date": "2023-12-10",
+                    "imgs": {
+                        "img1": "..\/images\/659c014373e7a.jpg",
+                        "img2": "..\/images\/659c0143747ff.png",
+                        "img3": "..\/images\/659c014374c01.png"
+                    },
+                    "himComment": "Lugar bonito com paisagem boa.",
+                    "herComment": "Atendimento muito bom, comidas deliciosas. Adorei a sobremesa.",
+                    "stars": {
+                        "environment": "4",
+                        "logistic": "5",
+                        "price": "3",
+                        "average": "4"
+                    }
+                }
+            ]
         },
         {
-          "id": 3,
-          "title": "acho que agora vai",
-          "description": "dia 12",
-          "price": "R$ 50,00",
-          "date": "2024-01-12",
-          "imgs": {
-            "img1": "caminho_imagem1.jpg",
-            "img2": "caminho_imagem2.jpg",
-            "img3": "caminho_imagem3.jpg"
-          },
-          "himComment": "ele gostou",
-          "herComment": "ela gostou",
-          "stars": {
-            "environment": "3",
-            "logistic": "3",
-            "price": "4",
-            "average": "3"
-          }
+            "name": "shoppings",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "JK Iguatemi",
+                    "description": "Shopping chique no Itaim Bibi.",
+                    "price": "R$ 00,00",
+                    "date": "2024-01-05",
+                    "imgs": {
+                        "img1": "..\/images\/659c0213abe8e.png",
+                        "img2": "..\/images\/659c0213ac0b3.png",
+                        "img3": "..\/images\/659c0213ac3a0.png"
+                    },
+                    "himComment": "Lugar interessante, com lugares confort\u00e1veis para descansar.",
+                    "herComment": "Shopping muito chique mas pouco acolhedor. Muitas lojas caras e s\u00f3 tinha gente rica. N\u00e3o tem sorveteria nem restaurante comum, mas os restaurantes s\u00e3o bonitos.",
+                    "stars": {
+                        "environment": "4",
+                        "logistic": "3",
+                        "price": "5",
+                        "average": "4"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "outros",
+            "cards": [
+                {
+                    "id": 1,
+                    "title": "Museu do Ipiranga",
+                    "description": "Museu do Ipiranga em S\u00e3o Paulo, gratuito. Pegamos um trem e um \u00f4nibus para chegar. \u00c9 do lado do Museu de Zoologia e tem um parque na frente, mas poucos lugares para comer por perto.",
+                    "price": "R$ 00,00",
+                    "date": "2023-11-20",
+                    "imgs": {
+                        "img1": "..\/images\/659c0669e8458.jpg",
+                        "img2": "..\/images\/659c0669e8682.jpg",
+                        "img3": "..\/images\/659c0669e880d.jpg"
+                    },
+                    "himComment": "Lugar f\u00e1cil de chegar, estrutura muito bonita. Bastante acess\u00edvel.",
+                    "herComment": "Museu bem grande e bonito, tem v\u00e1rias exposi\u00e7\u00f5es. O parque da frente tamb\u00e9m \u00e9 muito bonito e legal para fazer piquenique.",
+                    "stars": {
+                        "environment": "5",
+                        "logistic": "5",
+                        "price": "5",
+                        "average": "5"
+                    }
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "restaurantes",
-      "cards": [
-        {
-          "id": 4,
-          "title": "dsjvoitjgo",
-          "description": "fivjdoitgjdi",
-          "price": "R$ 10",
-          "date": "1010-10-10",
-          "imgs": {
-            "img1": "caminho_imagem1.jpg",
-            "img2": "caminho_imagem2.jpg",
-            "img3": "caminho_imagem3.jpg"
-          },
-          "himComment": "roigjeoigj",
-          "herComment": "fsjioetjgo",
-          "stars": {
-            "environment": "4",
-            "logistic": "2",
-            "price": "4",
-            "average": "3"
-          }
-        },
-        {
-          "id": 5,
-          "title": "uva",
-          "description": "uva",
-          "price": "R$ 10,10",
-          "date": "2023-12-30",
-          "imgs": {
-            "img1": "caminho_imagem1.jpg",
-            "img2": "caminho_imagem2.jpg",
-            "img3": "caminho_imagem3.jpg"
-          },
-          "himComment": "uva",
-          "herComment": "uva",
-          "stars": {
-            "environment": "2",
-            "logistic": "4",
-            "price": "3",
-            "average": "3"
-          }
-        }
-      ]
-    },
-    {
-      "name": "shoppings",
-      "cards": []
-    },
-    {
-      "name": "outros",
-      "cards": []
-    }
-  ]
+    ]
 }

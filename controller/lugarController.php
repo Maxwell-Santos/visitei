@@ -3,12 +3,12 @@
 
     class LugarController
     {
-        public function AdicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data, $caminhoImagem1, $caminhoImagem2, $caminhoImagem3,
-        $nota1, $nota2, $nota3, $media)
+        public function AdicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data,
+        $foto1, $foto2, $foto3, $nota1, $nota2, $nota3, $media)
         {
             $Lugar = new Lugar();
-            $Lugar->adicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data, $caminhoImagem1, $caminhoImagem2, $caminhoImagem3,
-            $nota1, $nota2, $nota3, $media);
+            $Lugar->adicionarLugar($nomeLocal, $categoria, $descricao, $commentDele, $commentDela, $preco, $data,
+            $foto1, $foto2, $foto3, $nota1, $nota2, $nota3, $media);
         }
 
         public function ListarTodos()
