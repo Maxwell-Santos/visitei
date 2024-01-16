@@ -3,12 +3,7 @@ function mostrarComentarios(eu) {
   comentarios.classList.toggle("mostrar");
 }
 
-const cards = document.querySelectorAll(".card-content");
-
-cards.forEach(card => {
-  const id = card.getAttribute("data-id");
-
-  card.addEventListener("click", e => {
-    window.location.href = `/infos/index.html?id=${id}`;
-  });
-});
+function showDetails(card) {
+  const id = card.parentNode.getAttribute("data-id");
+  window.location.href = `infos/index.html?id=${id}`;
+}

@@ -1,3 +1,5 @@
+// prettier-ignore
+
 export async function loadCardsData(url) {
   const cardsContent = document.querySelector(".cards");
 
@@ -7,11 +9,11 @@ export async function loadCardsData(url) {
 
     places.forEach(({ name, cards }) => {
       cards.map(card => {
-        cardsContent.innerHTML += `<article class="card" data-id="${card.id}">
+        cardsContent.innerHTML += `<article class="card" data-id="${card.id}-${name.toLowerCase()}">
         <div class="card-data">${new Date(card.date).toLocaleDateString()}</div>
-        <div class="card-content">
+        <div class="card-content" onclick="showDetails(this)">
           <img
-            src="https://images.unsplash.com/photo-1539735257177-0d3949225f96?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="${card.imgs.img1}"
             alt="" class="card-img" loading="lazy" >
           <div class="card-infos">
             <h3>${card.title}</h3>
@@ -21,7 +23,7 @@ export async function loadCardsData(url) {
         
         <div class="card-rodape">
           <span>${card.price}</span>
-          <span>${card.stars.average}</span>
+          <div>${generateStars(card.stars.average)}</div>
         </div>
         
         <span class="btn-comentarios" onclick="mostrarComentarios(this)">comentários</span>
@@ -50,6 +52,8 @@ export async function loadCardsData(url) {
   }
 }
 
+// prettier-ignore
+
 export async function loadCardsByCategory(url) {
   const cardsContent = document.querySelector(".cards");
   const title = document.querySelector(".titulo");
@@ -62,11 +66,11 @@ export async function loadCardsByCategory(url) {
     for (let i = 0; i < place.cards.length; i++) {
       const card = place.cards[i];
 
-      cardsContent.innerHTML += `<article class="card" data-id="${card.id}">
+      cardsContent.innerHTML += `<article class="card" data-id="${card.id}-${place.name.toLowerCase()}">
       <div class="card-data">${new Date(card.date).toLocaleDateString()}</div>
-      <div class="card-content">
+      <div class="card-content" onclick="showDetails(this)">
         <img
-          src="https://images.unsplash.com/photo-1539735257177-0d3949225f96?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="../${card.imgs.img1}"
           alt="" class="card-img" loading="lazy" >
         <div class="card-infos">
           <h3>${card.title}</h3>
@@ -76,7 +80,7 @@ export async function loadCardsByCategory(url) {
       
       <div class="card-rodape">
         <span>${card.price}</span>
-        <span>${card.stars.average}</span>
+        <span class="media">${generateStars(card.stars.average)}</span>
       </div>
       
       <span class="btn-comentarios" onclick="mostrarComentarios(this)">comentários</span>
@@ -102,4 +106,14 @@ export async function loadCardsByCategory(url) {
   } catch (error) {
     console.error(error);
   }
+}
+
+function generateStars(quant) {
+  let stars = "";
+
+  for (let i = 1; i <= quant; i++) {
+    stars += '<i class="ph-fill ph-star"></i>';
+  }
+
+  return stars;
 }
