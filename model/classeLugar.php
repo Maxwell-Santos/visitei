@@ -8,9 +8,10 @@
             $novoNome = uniqid();
             $extensao = strtolower(pathinfo($nomeInicial, PATHINFO_EXTENSION));
             $pasta = 'images/';
+            $pathUpload = '../images/' . $novoNome . "." . $extensao;
             $path = $pasta . $novoNome . "." . $extensao;
 
-            move_uploaded_file($foto['tmp_name'], $path);
+            move_uploaded_file($foto['tmp_name'], $pathUpload);
 
             return $path;
         }
