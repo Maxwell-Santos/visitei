@@ -7,7 +7,7 @@
             $nomeInicial = $foto['name'];
             $novoNome = uniqid();
             $extensao = strtolower(pathinfo($nomeInicial, PATHINFO_EXTENSION));
-            $pasta = '../images/';
+            $pasta = 'images/';
             $path = $pasta . $novoNome . "." . $extensao;
 
             move_uploaded_file($foto['tmp_name'], $path);

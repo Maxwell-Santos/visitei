@@ -37,6 +37,6 @@
         $_POST['nota2'],
         $_POST['nota3'],
         $_POST['media']);
-        return header('Location: ../view/');
+        return header('Location: ../');
     }
 ?>

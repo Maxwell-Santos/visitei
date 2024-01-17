@@ -21,11 +21,11 @@ fetch(`../../routes/rotas.php/${category}/${idCard}`)
       </div>
 
       <div class="imgs">
-        <img src="../${card.imgs.img1}" alt="">
+        <img src="../../${card.imgs.img1}" alt="">
         <div class="carroussel">
-          <img src="../${card.imgs.img1}" alt="">
-          <img src="../${card.imgs.img2}" alt="">
-          <img src="../${card.imgs.img3}" alt="">
+          <img src="../../${card.imgs.img1}" alt="">
+          <img src="../../${card.imgs.img2}" alt="">
+          <img src="../../${card.imgs.img3}" alt="">
         </div>
       </div>
 

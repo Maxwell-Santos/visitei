@@ -1,4 +1,4 @@
-import { loadCardsData } from "utils/loadCardsData.js";
+import { loadCardsData } from "./utils/loadCardsData.js";
 
 /**
  * Listar os cards

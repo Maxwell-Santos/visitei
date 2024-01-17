@@ -3,7 +3,9 @@ function mostrarComentarios(eu) {
   comentarios.classList.toggle("mostrar");
 }
 
-function showDetails(card) {
+function showDetails(card, isInCategory) {
   const id = card.parentNode.getAttribute("data-id");
-  window.location.href = `infos/index.html?id=${id}`;
+  window.location.href = isInCategory
+    ? `../infos/index.html?id=${id}`
+    : `view/infos/index.html?id=${id}`;
 }

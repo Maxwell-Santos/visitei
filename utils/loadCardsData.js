@@ -31,14 +31,14 @@ export async function loadCardsData(url) {
         <div class="card-comentarios" id="1">
           <div class="comentario">
             <div class="comentario-header">
-              <img src="../assets/ste.jpg" alt="" class="perfil-comentario" loading="lazy">
+              <img src="assets/ste.jpg" alt="" class="perfil-comentario" loading="lazy">
               <h4>ester_a_fani</h4>
             </div>
             <p>${card.herComment}</p>
           </div>
           <div class="comentario">
             <div class="comentario-header">
-              <img src="../assets/max.jpg" alt="" class="perfil-comentario" loading="lazy">
+              <img src="assets/max.jpg" alt="" class="perfil-comentario" loading="lazy">
               <h4>this_maxwell</h4>
             </div>
             <p>${card.himComment}</p>
@@ -68,9 +68,9 @@ export async function loadCardsByCategory(url) {
 
       cardsContent.innerHTML += `<article class="card" data-id="${card.id}-${place.name.toLowerCase()}">
       <div class="card-data">${new Date(card.date).toLocaleDateString()}</div>
-      <div class="card-content" onclick="showDetails(this)">
+      <div class="card-content" onclick="showDetails(this, 'inCategory')">
         <img
-          src="../${card.imgs.img1}"
+          src="../../${card.imgs.img1}"
           alt="" class="card-img" loading="lazy" >
         <div class="card-infos">
           <h3>${card.title}</h3>
