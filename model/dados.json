@@ -10,9 +10,9 @@
                     "price": "R$ 48,00",
                     "date": "2023-10-10",
                     "imgs": {
-                        "img1": "\/images\/659c052611edd.jpg",
-                        "img2": "\/images\/659c052612091.jpg",
-                        "img3": "\/images\/659c052612217.jpg"
+                        "img1": "images\/659c052611edd.jpg",
+                        "img2": "images\/659c052612091.jpg",
+                        "img3": "images\/659c052612217.jpg"
                     },
                     "himComment": "R\u00e1pido de chegar e muitos sabores de sorvete.",
                     "herComment": "Sorvetes todos muito gostosos e lugar bonito.",
@@ -27,48 +27,7 @@
         },
         {
             "name": "restaurantes",
-            "cards": [
-                {
-                    "id": 1,
-                    "title": "Novo Oriente",
-                    "description": "Restaurante de pinheiros de culin\u00e1ria oriental. Demoramos cerca de 1h de viagem e tivemos que pegar um trem e um \u00f4nibus. \u00c9 perto da esta\u00e7\u00e3o. ",
-                    "price": "R$ 120,00",
-                    "date": "2023-12-10",
-                    "imgs": {
-                        "img1": "\/images\/659c014373e7a.jpg",
-                        "img2": "\/images\/659c0143747ff.png",
-                        "img3": "\/images\/659c014374c01.png"
-                    },
-                    "himComment": "Lugar bonito com paisagem boa.",
-                    "herComment": "Atendimento muito bom, comidas deliciosas. Adorei a sobremesa.",
-                    "stars": {
-                        "environment": "4",
-                        "logistic": "5",
-                        "price": "3",
-                        "average": "4"
-                    }
-                },
-                {
-                    "id": 2,
-                    "title": "We Coffee - Shopping Eldorado",
-                    "description": "Cafeteria no Shopping Eldorado, em Pinheiros.",
-                    "price": "R$ 90,00",
-                    "date": "2024-01-16",
-                    "imgs": {
-                        "img1": "\/images\/65a7cda9bbc4d.jpg",
-                        "img2": "\/images\/65a7cdab15e38.jpg",
-                        "img3": "\/images\/65a7cdac0c0ba.jpg"
-                    },
-                    "himComment": "Apesar de os pre\u00e7os serem altos, os tamanhos valem a pena e sa\u00ed bem cheio com um milkshake e magic stick morango, mas o magic stick tinha um pouco de gosto de ado\u00e7ante e n\u00e3o achei t\u00e3o gostoso quanto o croissant choco am\u00eandoas. Valeu a pena a experi\u00eancia.",
-                    "herComment": "Tem poucos lugares para se sentar mas assim que os clientes saem as mesas s\u00e3o limpas rapidamente. Tem lugares dentro e fora. Bastante op\u00e7\u00e3o do que comer e tudo bem generoso e recheado.",
-                    "stars": {
-                        "environment": "5",
-                        "logistic": "5",
-                        "price": "5",
-                        "average": "5"
-                    }
-                }
-            ]
+            "cards": []
         },
         {
             "name": "shoppings",
@@ -80,9 +39,9 @@
                     "price": "R$ 00,00",
                     "date": "2024-01-05",
                     "imgs": {
-                        "img1": "\/images\/659c0213abe8e.png",
-                        "img2": "\/images\/659c0213ac0b3.png",
-                        "img3": "\/images\/659c0213ac3a0.png"
+                        "img1": "images\/659c0213abe8e.png",
+                        "img2": "images\/659c0213ac0b3.png",
+                        "img3": "images\/659c0213ac3a0.png"
                     },
                     "himComment": "Lugar interessante, com lugares confort\u00e1veis para descansar.",
                     "herComment": "Shopping muito chique mas pouco acolhedor. Muitas lojas caras e s\u00f3 tinha gente rica. N\u00e3o tem sorveteria nem restaurante comum, mas os restaurantes s\u00e3o bonitos.",
@@ -105,9 +64,9 @@
                     "price": "R$ 00,00",
                     "date": "2023-11-20",
                     "imgs": {
-                        "img1": "\/images\/659c0669e8458.jpg",
-                        "img2": "\/images\/659c0669e8682.jpg",
-                        "img3": "\/images\/659c0669e880d.jpg"
+                        "img1": "images\/659c0669e8458.jpg",
+                        "img2": "images\/659c0669e8682.jpg",
+                        "img3": "images\/659c0669e880d.jpg"
                     },
                     "himComment": "Lugar f\u00e1cil de chegar, estrutura muito bonita. Bastante acess\u00edvel.",
                     "herComment": "Museu bem grande e bonito, tem v\u00e1rias exposi\u00e7\u00f5es. O parque da frente tamb\u00e9m \u00e9 muito bonito e legal para fazer piquenique.",
