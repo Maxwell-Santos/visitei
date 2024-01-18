@@ -80,6 +80,7 @@ function addImage(idInput) {
       Object.entries(imgs).forEach(([prop, value]) => {
         if (prop == idInput) {
           value.src = r.result;
+          value.style.opacity = "1";
         }
       });
     };

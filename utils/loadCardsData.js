@@ -9,6 +9,8 @@ export async function loadCardsData(url) {
 
     places.forEach(({ name, cards }) => {
       cards.map(card => {
+        let {price, color} = setColor(card.price);
+
         cardsContent.innerHTML += `<article class="card" data-id="${card.id}-${name.toLowerCase()}">
         <div class="card-data">${new Date(card.date).toLocaleDateString()}</div>
         <div class="card-content" onclick="showDetails(this)">
@@ -22,7 +24,7 @@ export async function loadCardsData(url) {
         </div>
         
         <div class="card-rodape">
-          <span>${card.price}</span>
+          <span style="color: ${color};">${price}</span>
           <div>${generateStars(card.stars.average)}</div>
         </div>
         
@@ -63,8 +65,19 @@ export async function loadCardsByCategory(url) {
 
     title.innerHTML = place.name;
 
+    if (!place.cards.length) {
+      cardsContent.innerHTML = `
+      <div style="margin-bottom: 40px">
+        <img src="../../assets/ste.jpg" alt="nenhuma visita encontrada" style="max-width: 500px" />
+        <h2 style="text-align: center">Nenhuma visita encontrada 🥲</h2>
+      </div>
+      `;
+      return;
+    }
+
     for (let i = 0; i < place.cards.length; i++) {
       const card = place.cards[i];
+      let {price, color} = setColor(card.price);
 
       cardsContent.innerHTML += `<article class="card" data-id="${card.id}-${place.name.toLowerCase()}">
       <div class="card-data">${new Date(card.date).toLocaleDateString()}</div>
@@ -79,7 +92,7 @@ export async function loadCardsByCategory(url) {
       </div>
       
       <div class="card-rodape">
-        <span>${card.price}</span>
+        <span style="color: ${color};">${price}</span>
         <span class="media">${generateStars(card.stars.average)}</span>
       </div>
       
@@ -114,6 +127,26 @@ function generateStars(quant) {
   for (let i = 1; i <= quant; i++) {
     stars += '<i class="ph-fill ph-star"></i>';
   }
-
   return stars;
+}
+
+function setColor(price) {
+  let priceSplitted = price.split(",")[0].split(" ")[1];
+
+  let obj = {
+    color: "",
+    price,
+  };
+
+  console.log(price, "-", priceSplitted);
+
+  if (priceSplitted <= 100) {
+    obj.color = "#69cf69";
+  } else if (priceSplitted > 100 && priceSplitted <= 160) {
+    obj.color = "#f79723";
+  } else if (priceSplitted > 160) {
+    obj.color = "#f53b3b";
+  }
+
+  return obj;
 }

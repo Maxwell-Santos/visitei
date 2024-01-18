@@ -8,6 +8,7 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0;
 }
 
 form {
@@ -79,12 +80,17 @@ input[type='number'] {
   gap: 1rem;
 }
 
+.sel-imgs div div:hover{
+  border: 2px solid var(--hint); 
+}
+
 .sel-imgs div div{
   aspect-ratio: 4/4;
-  border: 1px solid #9D9D9D;
+  border: 2px solid #9D9D9D;
   border-radius: .5rem;
   cursor: pointer;
   overflow: hidden;
+  transition: all ease .3s;
 }
 
 .sessao-notas {
